@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/boat-tween",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "TypeScript port of boatbomber's BoatTween",
   "main": "src/init.lua",
   "keywords": ["roblox-ts", "rbxts", "roblox", "tweening", "animation"],
