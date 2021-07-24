@@ -1,14 +1,15 @@
 {
   "name": "@rbxts/boat-tween",
-  "version": "0.0.1",
-  "description": "A TypeScript port of boatbomber's BoatTween module",
+  "version": "0.0.2",
+  "description": "TypeScript port of boatbomber's BoatTween",
   "main": "src/init.lua",
   "keywords": ["roblox-ts", "rbxts", "roblox", "tweening", "animation"],
   "author": "ReturnedTrue",
   "license": "ISC",
+  "homepage": "https://github.com/boatbomber/BoatTween",
   "repository": {
     "type": "git",
-    "url": "https://github.com/boatbomber/BoatTween"
+    "url": "https://github.com/ReturnedTrue/BoatTween-ts"
   },
   "types": "src/types/index.d.ts",
   "files": [

@@ -1,3 +1,6 @@
+/// <reference path="BoatTweenData.d.ts" />
+/// <reference path="BoatTweenObject.d.ts" />
+
 declare namespace BoatTween {
     /**
      * @param object The instance that is having it's properties tweened
