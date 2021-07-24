@@ -1,5 +1,5 @@
 # BoatTween-ts
-Roblox-ts typings for BoatTween, a module made by boatbomber
+Roblox-ts typings for [BoatTween](https://devforum.roblox.com/t/boattween-module/540277), a module made by boatbomber
 
 # Installation
 ```
