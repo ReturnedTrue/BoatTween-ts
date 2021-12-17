@@ -1,9 +1,9 @@
 {
   "name": "@rbxts/boat-tween",
-  "version": "1.0.1-test.1",
+  "version": "1.0.1-test.2",
   "description": "TypeScript port of boatbomber's BoatTween",
   "main": "src/init",  
-  "types": "src/types/index",
+  "types": "src/types/index.d.ts",
   "keywords": ["roblox-ts", "rbxts", "roblox", "tweening", "animation"],
   "author": "ReturnedTrue",
   "license": "ISC",

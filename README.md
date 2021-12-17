@@ -8,7 +8,7 @@ $ npm i @rbxts/boat-tween
 
 # Usage
 ```ts
-import { BoatTween } from "types";
+import { BoatTween } from "@rbxts/boat-tween";
 
 const part = new Instance("Part");
 part.Anchored = true;
