@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/boat-tween",
-  "version": "1.0.1-test.3",
+  "version": "1.0.1",
   "description": "TypeScript port of boatbomber's BoatTween",
   "main": "src",  
   "types": "src/types/index.d.ts",
