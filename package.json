@@ -1,8 +1,9 @@
 {
   "name": "@rbxts/boat-tween",
-  "version": "1.0.0",
+  "version": "1.0.1-test.1",
   "description": "TypeScript port of boatbomber's BoatTween",
-  "main": "src/init.lua",
+  "main": "src/init",  
+  "types": "src/types/index",
   "keywords": ["roblox-ts", "rbxts", "roblox", "tweening", "animation"],
   "author": "ReturnedTrue",
   "license": "ISC",
@@ -11,7 +12,6 @@
     "type": "git",
     "url": "https://github.com/ReturnedTrue/BoatTween-ts"
   },
-  "types": "src/types/index.d.ts",
   "files": [
     "src",
     "README.md"
@@ -21,6 +21,14 @@
   },
   "devDependencies": {
     "@rbxts/compiler-types": "^1.2.3-types.0",
-    "@rbxts/types": "^1.0.507"
+    "@rbxts/types": "^1.0.507",
+
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-roblox-ts": "^0.0.32",
+    "prettier": "^2.4.1"
   }
 }

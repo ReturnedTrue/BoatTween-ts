@@ -3,41 +3,42 @@ Roblox-ts typings for [BoatTween](https://devforum.roblox.com/t/boattween-module
 
 # Installation
 ```
-$ npm i --save-dev @rbxts/boat-tween
+$ npm i @rbxts/boat-tween
 ```
 
 # Usage
 ```ts
-import BoatTween from "@rbxts/boat-tween"
+import { BoatTween } from "types";
 
-let part = new Instance("Part")
-part.Anchored = true
-part.CanCollide = false
-part.CFrame = new CFrame(0, 5, 0)
-part.Parent = game.GetService("Workspace")
+const part = new Instance("Part");
+part.Anchored = true;
+part.CanCollide = false;
+part.CFrame = new CFrame(0, 5, 0);
+part.Parent = game.GetService("Workspace");
 
-let tween = BoatTween.Create(part, {
-    Time: 5,
-    DelayTime: 0.5,
+const tween = BoatTween.Create(part, {
+	Time: 5,
+	DelayTime: 0.5,
 
-    EasingStyle: "Smooth",
-    EasingDirection: "In",
+	EasingStyle: "Smooth",
+	EasingDirection: "In",
 
-    RepeatCount: -1,
-    Reverses: true,
+	RepeatCount: -1,
+	Reverses: true,
 
-    StepType: "Stepped",
+	StepType: "Stepped",
 
-    Goal: {
-        CFrame: new CFrame(0, 10, 0)
-    }
-})
+	Goal: {
+		CFrame: new CFrame(0, 10, 0),
+	},
+});
 
-tween.Play()
+tween.Play();
+
 ```
 
 # Exported types
 ```ts
-BoatTween.TweenData<T extends Instance> // Options passed to BoatTween.Create
-BoatTween.TweenObject<T extends Instance> // Object returned from BoatTween.Create
+BoatTweenData<T extends Instance> // Options passed to BoatTween.Create
+BoatTweenObject<T extends Instance> // Object returned from BoatTween.Create
 ```

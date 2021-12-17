@@ -486,4 +486,6 @@ function BoatTween.Create(_, Object, Data)
 	return TweenObject
 end
 
-return BoatTween
+return {
+	BoatTween = BoatTween,
+}
